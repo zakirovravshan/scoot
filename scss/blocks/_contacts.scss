@@ -1,0 +1,107 @@
+.contacts__inner{ 
+    padding: 78px 0 120px;
+  
+  } 
+  .contacts__inner__title{ 
+    text-align: center; 
+    margin: 0; 
+    margin-bottom: 85px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #495567;
+  } 
+  
+  .contacts__inner__list{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    list-style: none; 
+    padding-left: 0;
+  }  
+  .contacts__inner__item{ 
+   text-align: center;
+  
+  
+  } 
+  
+  .contacts__inner__item:nth-child(1){ 
+     position: relative;
+    &::before{ 
+      position: absolute; 
+      top: 220px; 
+      right: 125px;
+       width: 96px; 
+       height: 96px;  
+       border-radius: 50%;
+       background-image: url("../images/contact-befor-img_1.svg"); 
+       background-repeat: no-repeat; 
+       background-size: 100%; 
+       content: '';
+     }
+  } 
+  
+  .contacts__inner__item:nth-child(2){ 
+    position: relative;
+   &::before{ 
+     position: absolute;
+     top: 220px; 
+      right: 125px;
+      width: 96px; 
+      height: 96px;  
+      border-radius: 50%;
+      background-image: url("../images/contact-befor-img-2.svg"); 
+      background-repeat: no-repeat; 
+      background-size: 100%; 
+      content: '';
+    }
+  }  
+  
+  .contacts__inner__item:nth-child(3){ 
+    position: relative;
+   &::before{ 
+     position: absolute;
+     top: 220px; 
+     right: 125px;
+      width: 96px; 
+      height: 96px;  
+      border-radius: 50%;
+      background-image: url("../images/contact-befor-img-3.svg"); 
+      background-repeat: no-repeat; 
+      background-size: 100%; 
+      content: '';
+    }
+  }  
+  
+  .contacts__inner__link{ 
+  
+    text-decoration: none;
+  } 
+  .contacts__inner__img{ 
+   border-radius: 50%; 
+   border: none;
+    margin-bottom: 87px;
+  } 
+  .contacts__inner__subtitle{ 
+   width: 350px;
+  
+  } 
+  .contacts__inner__slogan{  
+    margin: 0; 
+    margin-bottom: 27px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 117%;
+      text-align: center;
+      color: #495567;
+  
+  } 
+  .contacts__inner__text{ 
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 167%;
+      text-align: center;
+      color: #939CAA;
+  
+  }
