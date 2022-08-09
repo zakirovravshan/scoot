@@ -360,10 +360,6 @@ img {
      object-fit: cover;
 }
 
-main {
-  flex-grow: 1;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -429,6 +425,14 @@ main {
   text-align: center;
   background-color: #FCB72B;
   text-decoration: none;
+  border: 3px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.menu__link:hover {
+  background: #F2F2F2;
+  border: 3px solid #FCB72B;
+  color: #FCB72B;
 }
 
 .keresiztext {
@@ -439,6 +443,7 @@ main {
   text-align: center;
   font-size: 48px;
 }
+
 
 .hero {
   background-image: url("../images/hero-bg-img.png");
@@ -723,6 +728,257 @@ main {
   font-size: 15px;
   line-height: 167%;
   color: #495567;
+
+.intro {
+  background-image: url(../../images/herobg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+.intro__inner {
+  width: 100%;
+  max-width: 500px;
+  padding: 153px 0;
+}
+
+.intro__title {
+  position: relative;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.intro__title::before {
+  position: absolute;
+  top: 265px;
+  left: 1127px;
+  width: 186px;
+  height: 64px;
+  content: "";
+  background-image: url(../../images/herocircle.png);
+  background-repeat: no-repeat;
+  background-size: 186px 64px;
+}
+
+.intro__wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 405px;
+  margin-left: auto;
+}
+
+.intro__wrapper::before {
+  position: absolute;
+  top: 45px;
+  left: -220px;
+  width: 203px;
+  height: 10px;
+  content: "";
+  background-image: url(../../images/herobefore.svg);
+  background-repeat: no-repeat;
+  background-size: 203px 10px;
+}
+
+.intro__wrapper::after {
+  position: absolute;
+  top: 45px;
+  right: -480px;
+  width: 447px;
+  height: 138px;
+  content: "";
+  background-image: url(../../images/heroafter.svg);
+  background-repeat: no-repeat;
+  background-size: 447px 138px;
+}
+
+.intro__text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.intro__link {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 14px;
+  text-align: center;
+  background-color: #FCB72B;
+  text-decoration: none;
+  border: 3px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.intro__link:hover {
+  background: transparent;
+  border: 3px solid #FCB72B;
+  color: #FCB72B;
+}
+
+.share {
+  background-image: url(../../images/shareline.png);
+  background-repeat: no-repeat;
+  background-size: 974px 15px;
+  background-position: calc(50% - 270px) calc(50% - 90px);
+}
+
+.share__inner {
+  padding: 160px 0 147px 0;
+}
+
+.share__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.share__item {
+  width: 100%;
+  max-width: 350px;
+}
+
+.share__item__img {
+  margin-bottom: 40px;
+}
+
+.share__item__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  margin-bottom: 27px;
+}
+
+.share__item__text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #939CAA;
+}
+
+.use {
+  background-image: url(../../images/usebg.png), url(../../images/usebg.png), url(../../images/usebg.png);
+  background-repeat: no-repeat;
+  background-size: 445px 445px;
+  background-position: calc(50% + 880px) calc(50% - 600px), calc(50% - 880px), calc(50% + 880px) calc(50% + 600px);
+}
+
+.use__list {
+  list-style-type: none;
+}
+
+.use__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 168px;
+}
+
+.use__item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.use__content {
+  width: 100%;
+  max-width: 445px;
+}
+
+.use__content__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin-bottom: 24px;
+}
+
+.use__content__text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #939CAA;
+  margin-bottom: 40px;
+}
+
+.use__content__link {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 14px;
+  text-align: center;
+  background-color: #FCB72B;
+  text-decoration: none;
+  border: 3px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.use__content__link:hover {
+  background: #fff;
+  border: 3px solid #FCB72B;
+  color: #FCB72B;
+}
+
+.use__item:nth-child(1)::before {
+  position: absolute;
+  bottom: 0;
+  right: -150px;
+  width: 735px;
+  height: 138px;
+  content: "";
+  background-image: url(../../images/use1before.svg);
+  background-repeat: no-repeat;
+  background-size: 735px 138px;
+}
+
+.use__item:nth-child(2)::before {
+  position: absolute;
+  top: 0;
+  left: -180px;
+  width: 367px;
+  height: 138px;
+  content: "";
+  background-image: url(../../images/usebefore2.png);
+  background-repeat: no-repeat;
+  background-size: 367px 138px;
+}
+
+.use__item:nth-child(3)::before {
+  position: absolute;
+  top: 100px;
+  right: -195px;
+  width: 367px;
+  height: 138px;
+  content: "";
+  background-image: url(../../images/usebefore3.png);
+  background-repeat: no-repeat;
+  background-size: 367px 138px;
 }
 
 .signup {
@@ -735,6 +991,14 @@ main {
 
 .signup__inner {
   padding: 102px 0;
+}
+
+.signup__top_link:hover {
+  opacity: 0.6;
+}
+
+.footer__top_link:hover {
+  opacity: 0.6;
 }
 
 .signup__top__title {
@@ -770,6 +1034,14 @@ main {
 
 .social__link {
   margin-left: 24px;
+}
+
+.photo-section {
+  height: 200px;
+  background-image: url(../../images/careerbgi.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
 }
 
 .just__box {

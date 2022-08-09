@@ -1,0 +1,53 @@
+.share {
+    background-image: url(../../images/shareline.png);
+    background-repeat: no-repeat;
+    background-size: 974px 15px;
+    background-position: calc(50% - 270px) calc(50% - 90px);
+}
+
+.share__inner {
+
+    padding: 160px 0 147px 0;
+//     background-image: url(../../images/shareline.png);
+//     background-repeat: no-repeat;
+//     background-size: 974px 15px;
+//     background-position: calc(50% - 00px) calc(50%);
+}
+
+.share__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    // border: 1px solid black;
+}
+
+.share__item {
+    width: 100%;
+    max-width: 350px;
+    // border: 1px solid red;
+}
+
+.share__item__img {
+    margin-bottom: 40px;
+}
+
+.share__item__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    margin-bottom: 27px;
+}
+
+.share__item__text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #939CAA;
+
+}
+

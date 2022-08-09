@@ -45,6 +45,13 @@
     text-align: center;
     background-color: #FCB72B;
     text-decoration: none;
+    border: 3px solid transparent;
+    transition: all 0.4s ease;
+}
+.menu__link:hover{
+    background: #F2F2F2;
+    border: 3px solid #FCB72B;
+    color: #FCB72B;
 }
 
 .keresiztext{
