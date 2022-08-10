@@ -1,0 +1,90 @@
+.container {
+   width: 100%;
+   max-width: 1146px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+//  care section begin
+.care__content{
+   position: relative;
+   padding-top: 110px;
+   padding-bottom: 110px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   &::before{
+      position: absolute;
+      width: 445px;
+      height: 445px;
+      background-image: url("../images/care-mask.png");
+      bottom: 108px;
+      right: -490px;
+      content: '';
+   }
+}
+.care__box{
+   width: 100%;
+   max-width: 445px;
+}
+.care__title{
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 100%;
+   letter-spacing: -2.14286px;
+   color: #495567;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 24px;
+}
+.care__text{
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 167%;
+   color: #939CAA;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 40px;
+}
+.care__link{
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 167%;
+   text-align: center;
+   color: #FFFFFF;
+   background-color: #FCB72B;
+   padding: 14px 24px;
+   text-decoration: none;
+}
+.care__img-box{
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 734px;
+      height: 115px;
+      background-image: url("../images/care-section-bf.svg");
+      bottom: 48px;
+      left: -120px;
+      content: '';
+   }
+
+   &::after{
+      position: absolute;
+      width: 50px;
+      height: 88px;
+      background-image: url("../images/care-2.svg");
+      bottom: 11px;
+      left: -135px;
+      content: '';
+   }
+}
+.care__img{
+   border-radius: 50%;
+}
