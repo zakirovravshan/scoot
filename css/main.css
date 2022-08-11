@@ -427,7 +427,6 @@ main {
   padding: 0 20px;
 }
 
-<<<<<<< HEAD
 .site-header {
   padding: 22px 0 21px 0;
 }
@@ -549,10 +548,10 @@ main {
 
 .social__link {
   margin-left: 24px;
-=======
+}
+
 .just__box {
   margin-top: 20px;
->>>>>>> care-section
 }
 
 .care__content {
@@ -770,5 +769,65 @@ main {
   font-size: 15px;
   line-height: 167%;
   color: #939CAA;
+}
+
+.apply__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 150px;
+}
+
+.apply__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 32px 60px 32px 40px;
+  margin-bottom: 24px;
+  background-color: #F2F5F9;
+}
+
+.apply__item:nth-child(6) {
+  margin-bottom: 0px;
+}
+
+.apply__title {
+  margin: 0;
+  margin-bottom: 8;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.apply__text {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #495567;
+}
+
+.apply__link {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FCB72B;
+  padding: 14px 40px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
