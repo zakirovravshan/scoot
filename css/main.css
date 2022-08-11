@@ -570,6 +570,8 @@ main {
   width: 445px;
   height: 445px;
   background-image: url("../images/care-mask.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   bottom: 108px;
   right: -490px;
   content: '';
@@ -628,6 +630,7 @@ main {
   height: 115px;
   background-image: url("../images/care-section-bf.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
   bottom: 48px;
   left: -120px;
   content: '';
@@ -639,6 +642,7 @@ main {
   height: 88px;
   background-image: url("../images/care-2.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
   bottom: 11px;
   left: -135px;
   content: '';
