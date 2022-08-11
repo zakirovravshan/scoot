@@ -427,6 +427,7 @@ main {
   padding: 0 20px;
 }
 
+<<<<<<< HEAD
 .site-header {
   padding: 22px 0 21px 0;
 }
@@ -548,6 +549,10 @@ main {
 
 .social__link {
   margin-left: 24px;
+=======
+.just__box {
+  margin-top: 20px;
+>>>>>>> care-section
 }
 
 .care__content {
