@@ -350,7 +350,6 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Space Mono", Arial, sans-serif;
-  overflow-x: hidden;
 }
 
 img {
@@ -750,6 +749,14 @@ img {
 
 .social__link {
   margin-left: 24px;
+}
+
+.photo-section {
+  height: 200px;
+  background-image: url(../../images/careerbgi.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
 }
 
 .just__box {
