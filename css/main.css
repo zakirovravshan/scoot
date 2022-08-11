@@ -687,13 +687,13 @@ img {
 .use__item:nth-child(3)::before {
   position: absolute;
   top: 100px;
-  right: -500px;
-  width: 735px;
+  right: -195px;
+  width: 367px;
   height: 138px;
   content: "";
-  background-image: url(../../images/use1before.svg);
+  background-image: url(../../images/usebefore3.png);
   background-repeat: no-repeat;
-  background-size: 735px 138px;
+  background-size: 367px 138px;
 }
 
 .signup {
