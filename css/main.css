@@ -690,9 +690,6 @@ main {
   font-size: 15px;
   line-height: 167%;
   color: #939CAA;
-<<<<<<< HEAD
-}/*# sourceMappingURL=main.css.map */
-=======
 }
 
 .apply__list {
@@ -703,15 +700,9 @@ main {
 }
 
 .apply__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   padding: 32px 60px 32px 40px;
   margin-bottom: 24px;
   background-color: #F2F5F9;
@@ -724,7 +715,7 @@ main {
 .apply__title {
   margin: 0;
   margin-bottom: 8;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -734,7 +725,7 @@ main {
 }
 
 .apply__text {
-  font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -743,7 +734,7 @@ main {
 }
 
 .apply__link {
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -753,6 +744,4 @@ main {
   background-color: #FCB72B;
   padding: 14px 40px;
   text-decoration: none;
-}
-/*# sourceMappingURL=main.css.map */
->>>>>>> c74d017fd1b3637b65e5b666764a21c6ba081e4e
+}/*# sourceMappingURL=main.css.map */
