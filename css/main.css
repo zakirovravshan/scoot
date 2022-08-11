@@ -472,7 +472,7 @@ img {
 .intro__title::before {
   position: absolute;
   top: 265px;
-  left: 1211px;
+  left: 1127px;
   width: 186px;
   height: 64px;
   content: "";
@@ -706,6 +706,14 @@ img {
 
 .signup__inner {
   padding: 102px 0;
+}
+
+.signup__top_link:hover {
+  opacity: 0.6;
+}
+
+.footer__top_link:hover {
+  opacity: 0.6;
 }
 
 .signup__top__title {
