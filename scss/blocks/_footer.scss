@@ -1,0 +1,47 @@
+.signup {
+    background-color: #495567;
+    background-image: url(../../images/signupbg.png);
+    background-repeat: no-repeat;
+    background-size: 1153px 173px;
+    background-position: calc(50% + 180px) calc(50% + 65px);
+
+}
+
+.signup__inner {
+    padding: 102px 0;
+    
+   
+}
+
+
+
+.signup__top__title {
+    display: inline-block;
+    width: 100%;
+    max-width: 415px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+.signup__top_link--first{
+    margin-left: 330px;
+}
+.signup__top_link--second{
+    margin: 0;
+    padding: 0;
+    
+}
+.site-footer{
+    background-color: #333A44;
+}
+.footer__inner{
+    padding: 35px 0 32px 0;
+    display: flex;
+    align-items: center;
+}
+.social__link{
+    margin-left: 24px;
+}
