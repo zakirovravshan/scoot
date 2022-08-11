@@ -1,0 +1,48 @@
+.site-header {
+    padding: 22px 0 21px 0;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    margin-left: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item+.navbar__item {
+    margin-left: 32px;
+}
+
+.navbar__item__link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 167%;
+    color: #939CAA;
+    text-decoration: none;
+}
+
+.navbar__link {
+    width: 100%;
+    max-width: 180px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px;
+    text-align: center;
+    background-color: #FCB72B;
+    text-decoration: none;
+}
