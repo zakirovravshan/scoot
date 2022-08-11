@@ -1,3 +1,4 @@
+
 .hero{  
 
     background-image: url("../images/hero-bg-img.png");
@@ -51,3 +52,113 @@
    border-radius: 50%; 
    border: none; 
  }
+
+.intro {
+    
+    background-image: url(../../images/herobg.jpg) , ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: calc(50%) calc(50%) ;
+}
+
+// .intro{
+//     background-image: url(../../images/herocircle.png) , ;
+//     background-repeat: no-repeat;
+//     background-size: 186px 64px ;
+//     background-position: calc(50%) calc(50%) ;
+// }
+
+.intro__inner {
+    width: 100%;
+    max-width: 500px;
+    padding: 153px 0;
+}
+
+
+.intro__title {
+    position: relative;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: -2.5px;
+
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.intro__title::before{
+    position: absolute;
+    top: 265px;
+    left: 1127px;
+    width: 186px;
+    height: 64px;
+    content: "";
+    background-image: url(../../images/herocircle.png);
+    background-repeat: no-repeat;
+    background-size: 186px 64px;
+}
+
+.intro__wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 405px;
+    margin-left: auto;
+}
+.intro__wrapper::before{
+    position: absolute;
+    top: 45px;
+    left: -220px;
+    width: 203px;
+    height: 10px;
+    content: "";
+    background-image: url(../../images/herobefore.svg);
+    background-repeat: no-repeat;
+    background-size: 203px 10px;
+}
+.intro__wrapper::after{
+    position: absolute;
+    top: 45px;
+    right: -480px;
+    width: 447px;
+    height: 138px;
+    content: "";
+    background-image: url(../../images/heroafter.svg);
+    background-repeat: no-repeat;
+    background-size: 447px 138px;
+}
+
+
+.intro__text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+
+.intro__link{
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px;
+    text-align: center;
+    background-color: #FCB72B;
+    text-decoration: none;
+    border: 3px solid transparent;
+    transition: all 0.4s ease;
+}
+.intro__link:hover{
+    background: transparent;
+    border: 3px solid #FCB72B;
+    color: #FCB72B;
+}
+
