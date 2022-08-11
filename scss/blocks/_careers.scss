@@ -1,0 +1,205 @@
+
+//  care section begin
+
+.just__box{
+   margin-top: 20px;
+}
+.care__content{
+   position: relative;
+   padding-top: 110px;
+   padding-bottom: 110px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+   &::before{
+      position: absolute;
+      width: 445px;
+      height: 445px;
+      background-image: url("../images/care-mask.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 108px;
+      right: -490px;
+      content: '';
+   }
+}
+.care__box{
+   width: 100%;
+   max-width: 445px;
+}
+.care__title{
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 100%;
+   letter-spacing: -2.14286px;
+   color: #495567;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 24px;
+}
+.care__text{
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 167%;
+   color: #939CAA;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 40px;
+}
+.care__link{
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 167%;
+   text-align: center;
+   color: #FFFFFF;
+   background-color: #FCB72B;
+   padding: 14px 24px;
+   text-decoration: none;
+}
+.care__img-box{
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 734px;
+      height: 115px;
+      background-image: url("../images/care-section-bf.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 48px;
+      left: -120px;
+      content: '';
+   }
+   
+   &::after{
+      position: absolute;
+      width: 50px;
+      height: 88px;
+      background-image: url("../images/care-2.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 11px;
+      left: -135px;
+      content: '';
+   }
+}
+.care__img{
+   border-radius: 50%;
+}
+
+// care section finish
+
+// tech section begin
+.tech__title{
+   margin: 0;
+   margin-bottom: 320px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 100%;
+   text-align: center;
+   letter-spacing: -2.14286px;
+   color: #495567;
+}
+.tech__list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 100px;
+}
+.tech__item{
+   position: relative;
+   width: 100%;
+   max-width: 300px;
+   list-style-type: none;
+   text-align: center;
+
+   &::before{
+      position: absolute;
+      width: 300px;
+      height: 280px;
+      background-image: url("../images/tech-bf.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 60%;
+      top: -260px;
+      left: 5px;
+      z-index: -1;
+      content: '';
+   }
+}
+.tech__item:nth-child(2){
+   &::before{
+      position: absolute;
+      width: 300px;
+      height: 280px;
+      background-image: url("../images/tech-bf2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 60%;
+      top: -260px;
+      left: 5px;
+      z-index: -1;
+      content: '';
+   }
+}
+.tech__item:nth-child(3){
+   &::before{
+      position: absolute;
+      width: 300px;
+      height: 280px;
+      background-image: url("../images/tech-bf3.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 60%;
+      top: -260px;
+      left: 5px;
+      z-index: -1;
+      content: '';
+   }
+}
+.tech__str{
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 117%; 
+   text-align: center;
+   letter-spacing: -1.07143px;
+   color: #495567;
+   padding: 28px;
+   background-color: #FCB72B;
+   border-radius: 50%;
+}
+.first__title{
+   margin: 0;
+   margin-top: 37px;
+   margin-bottom: 27px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 117%;
+   text-align: center;
+   letter-spacing: -1.07143px;
+   color: #495567;
+}
+.tech__text{
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 167%;
+   color: #939CAA;
+}
+
+// tech section finish
