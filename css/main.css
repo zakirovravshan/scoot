@@ -480,6 +480,7 @@ main {
   width: 734px;
   height: 115px;
   background-image: url("../images/care-section-bf.svg");
+  background-repeat: no-repeat;
   bottom: 48px;
   left: -120px;
   content: '';
@@ -490,6 +491,7 @@ main {
   width: 50px;
   height: 88px;
   background-image: url("../images/care-2.svg");
+  background-repeat: no-repeat;
   bottom: 11px;
   left: -135px;
   content: '';
@@ -497,5 +499,120 @@ main {
 
 .care__img {
   border-radius: 50%;
+}
+
+.tech__title {
+  margin: 0;
+  margin-bottom: 320px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.tech__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+.tech__item {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.tech__item::before {
+  position: absolute;
+  width: 300px;
+  height: 280px;
+  background-image: url("../images/tech-bf.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 60%;
+  top: -260px;
+  left: 5px;
+  z-index: -1;
+  content: '';
+}
+
+.tech__item:nth-child(2)::before {
+  position: absolute;
+  width: 300px;
+  height: 280px;
+  background-image: url("../images/tech-bf2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 60%;
+  top: -260px;
+  left: 5px;
+  z-index: -1;
+  content: '';
+}
+
+.tech__item:nth-child(3)::before {
+  position: absolute;
+  width: 300px;
+  height: 280px;
+  background-image: url("../images/tech-bf3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 60%;
+  top: -260px;
+  left: 5px;
+  z-index: -1;
+  content: '';
+}
+
+.tech__str {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  padding: 28px;
+  background-color: #FCB72B;
+  border-radius: 50%;
+}
+
+.first__title {
+  margin: 0;
+  margin-top: 37px;
+  margin-bottom: 27px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.tech__text {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #939CAA;
 }
 /*# sourceMappingURL=main.css.map */
