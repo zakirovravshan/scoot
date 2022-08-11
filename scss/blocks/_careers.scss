@@ -122,7 +122,7 @@
    max-width: 300px;
    list-style-type: none;
    text-align: center;
-
+   
    &::before{
       position: absolute;
       width: 300px;
@@ -203,3 +203,57 @@
 }
 
 // tech section finish
+
+// apply section begin
+
+.apply__list{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   margin-bottom: 150px;
+}
+
+.apply__item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 32px 60px 32px 40px;
+   margin-bottom: 24px;
+   background-color: #F2F5F9;
+}
+
+.apply__item:nth-child(6){
+   margin-bottom: 0px;
+}
+
+.apply__title{
+   margin: 0;
+   margin-bottom: 8;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 117%;
+   letter-spacing: -1.07143px;
+   color: #495567;
+}
+.apply__text{
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 167%;
+   color: #495567;
+}
+.apply__link{
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 167%;
+   text-align: center;
+   color: #FFFFFF;
+   background-color: #FCB72B;
+   padding: 14px 40px;
+   text-decoration: none;
+}
