@@ -29,3 +29,49 @@
    color: #FFFFFF;
    margin: 0px;
 }
+
+// city section begin 
+
+.city__content{
+   margin-top: 30px;
+   margin-bottom: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.city__title{
+   width: 100%;
+   max-width: 352px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 100%;
+   letter-spacing: -2.14286px;
+   color: #495567;
+}
+.city__text-box{
+   width: 100%;
+   max-width: 445px;
+}
+.city__text{
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 167%;
+   color: #939CAA;
+}
+
+.city__btn{
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 167%;
+   color: #FFFFFF;
+   border: none;
+   background-color: #FCB72B;
+   padding: 14px 30px;
+}
