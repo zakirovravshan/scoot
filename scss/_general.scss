@@ -17,6 +17,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Space Mono' , Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 img {
@@ -27,5 +28,5 @@ img {
 }
 
 main {
-  flex-grow: 1;
+
 }
