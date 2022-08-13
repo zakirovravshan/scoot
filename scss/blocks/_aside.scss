@@ -1,0 +1,19 @@
+.aside{  
+  position: relative;
+  background-image: url("../images/aside-bgi-img.png");  
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  background-position: center center ; 
+} 
+.aside__inner{ 
+ padding: 62px 0 72px ;
+
+} 
+.aside__inner__title{ 
+    position: relative; 
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    color: #FFFFFF;
+    
+}
