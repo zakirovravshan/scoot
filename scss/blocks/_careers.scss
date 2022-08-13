@@ -2,16 +2,13 @@
 //  care section begin
 .photo-section{
    height: 200px;
-   
-   background-image: url(../../images/careerbgi.png);
+   background-image: url("../images/careerbgi.png");
    background-repeat: no-repeat;
    background-size: 100%;
    background-position: center center;
 }
-
 .just__box{
-   margin-top: 20px;
-   
+   margin-top: 20px; 
 }
 .care__content{
    position: relative;
@@ -19,8 +16,7 @@
    padding-bottom: 110px;
    display: flex;
    align-items: center;
-   justify-content: space-between;
-   
+   justify-content: space-between;   
    &::before{
       position: absolute;
       width: 445px;
@@ -101,9 +97,7 @@
 .care__img{
    border-radius: 50%;
 }
-
 // care section finish
-
 // tech section begin
 .tech__title{
    margin: 0;
@@ -210,18 +204,14 @@
    line-height: 167%;
    color: #939CAA;
 }
-
 // tech section finish
-
 // apply section begin
-
 .apply__list{
    margin: 0;
    padding: 0;
    list-style: none;
    margin-bottom: 150px;
 }
-
 .apply__item{
    display: flex;
    align-items: center;
@@ -230,7 +220,6 @@
    margin-bottom: 24px;
    background-color: #F2F5F9;
 }
-
 .apply__item:nth-child(6){
    margin-bottom: 0px;
 }
