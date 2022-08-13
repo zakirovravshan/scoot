@@ -1230,7 +1230,7 @@ img {
 
 .photo-section {
   height: 200px;
-  background-image: url("../../images/careerbgi.png");
+  background-image: url("../images/careerbgi.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
@@ -1519,7 +1519,7 @@ img {
 
 .location-section {
   height: 200px;
-  background-image: url("../../images/careerbgi.png");
+  background-image: url("../images/careerbgi.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;

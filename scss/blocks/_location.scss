@@ -1,6 +1,6 @@
 .location-section{
    height: 200px;
-   background-image: url("../../images/careerbgi.png");
+   background-image: url("../images/careerbgi.png");
    background-repeat: no-repeat;
    background-size: 100%;
    background-position: center center;
@@ -29,9 +29,7 @@
    color: #FFFFFF;
    margin: 0px;
 }
-
 // city section begin 
-
 .city__content{
    margin-top: 30px;
    margin-bottom: 100px;
@@ -39,7 +37,6 @@
    align-items: center;
    justify-content: space-between;
 }
-
 .city__title{
    width: 100%;
    max-width: 352px;
@@ -63,7 +60,6 @@
    line-height: 167%;
    color: #939CAA;
 }
-
 .city__btn{
    font-family: 'Space Mono';
    font-style: normal;
