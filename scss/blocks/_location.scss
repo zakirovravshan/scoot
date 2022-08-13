@@ -1,0 +1,31 @@
+.location-section{
+   height: 200px;
+   background-image: url("../../images/careerbgi.png");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center center;
+}
+.location__content{
+   position: relative;
+   padding-top: 70px;
+   &::before{
+      position: absolute;
+      width: 238px;
+      height: 75px;
+      background-image: url("../images/location-bf.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      right: -90px;
+      content: '';
+   }
+}
+.location__title{
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 100%;   
+   letter-spacing: -2.5px;
+   color: #FFFFFF;
+   margin: 0px;
+}
