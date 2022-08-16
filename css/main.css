@@ -1517,6 +1517,101 @@ img {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 900px) {
+  .care__content {
+    width: 100%;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .care__img-box {
+    margin: 0px auto;
+    margin-bottom: 80px;
+  }
+  .care__box {
+    max-width: 573px;
+    margin: 0px auto;
+  }
+  .care__img-box {
+    position: relative;
+  }
+  .care__img-box::before {
+    position: absolute;
+    width: 734px;
+    height: 115px;
+    background-image: url("../images/care-section-bf.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 48px;
+    left: -100px;
+    content: '';
+  }
+  .care__img-box::after {
+    position: absolute;
+    width: 50px;
+    height: 88px;
+    background-image: url("../images/care-2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 11px;
+    left: -115px;
+    content: '';
+  }
+  .care__content {
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .care__content::before {
+    position: absolute;
+    width: 100%;
+    max-width: 445px;
+    height: 445px;
+    background-image: url("../images/care-mask.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 108px;
+    right: -440px;
+    content: '';
+  }
+  .tech__list {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .tech__item {
+    margin: 0px auto;
+    margin-bottom: 300px;
+  }
+  .tech__title {
+    margin-top: 30px;
+    margin-bottom: 400;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .apply__item {
+    text-align: center;
+    display: block;
+  }
+  .apply__link {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
 .location-section {
   height: 200px;
   background-image: url("../images/careerbgi.png");
