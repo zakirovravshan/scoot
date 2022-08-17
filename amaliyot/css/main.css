@@ -1,0 +1,23 @@
+.container{
+   width: 800px;
+   margin: 0px auto;
+   padding: 0px 20px;
+}
+.just{
+   display: flex;
+   align-items: center;
+}
+.wrapper{
+   width: 1200px;
+   margin: 0px auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(5, 1fr);
+   grid-gap: 10px;
+}
+.box{
+   display: flex;
+}
+img{
+   display: flex;
+}
