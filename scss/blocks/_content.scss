@@ -48,4 +48,97 @@
       border-radius: 50%; 
       border: none;
     
-    }
+    } 
+    @media only screen and ( max-width:900px){ 
+       
+      .content{ 
+        background-image: url("../images/bg-img_content.png"); 
+        background-repeat: no-repeat; 
+        background-size: 130px 445px; 
+        background-position: calc(50% + -390px) calc(50% + -130px);
+      
+      }
+      .content__inner{ 
+        flex-direction: column;
+        text-align: center; 
+         position: relative;
+        &::before{   
+          position: absolute; 
+          top: 60px;
+          left: -30px;
+         width: 435px; 
+         height: 178px;
+        background-image: url("../images/cotent-bg-img.png"); 
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        content: '';  
+      }
+      }  
+      .content__inner__subtitle{ 
+       
+        max-width: 457px; 
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px; 
+        margin: 0 auto; 
+        margin-bottom: 40px;
+      }
+      .content__inner__img{
+        margin-bottom: 50px;
+      }  
+
+      .content__inner__title{ 
+       
+        max-width: 573px;
+      
+      }
+    } 
+
+    @media only screen and ( max-width:576px){ 
+    
+      .content{ 
+        background-image: url("../images/bg-img_content.png"); 
+        background-repeat: no-repeat; 
+        background-size: 130px 445px; 
+        background-position: calc(50% + -350px) calc(50% + -130px);
+      
+      }
+      .content__inner{ 
+        flex-direction: column; 
+        &::before{   
+          position: absolute; 
+          top: 80px;
+          left: 45px;
+         width: 405px; 
+         height: 169px;
+        background-image: url("../images/cotent-bg-img.png"); 
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        content: '';  
+      }
+      }  
+      .content__inner__subtitle{  
+        margin: auto; 
+        width: 311px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px; 
+        margin-bottom: 34px; 
+     
+      
+      }
+      .content__inner__img{
+        margin-bottom: 50px; 
+        width: 350px; 
+        height: 350px;
+      }  
+      .content__inner__text{  
+        margin: auto;
+        width: 311px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+      
+      }
+    
+    } 
