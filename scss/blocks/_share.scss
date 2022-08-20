@@ -51,3 +51,138 @@
 
 }
 
+
+@include max-width (900px){
+    .share {
+        background-image: url(../../images/sharerespbg.png);
+        background-repeat: no-repeat;
+        background-size: 15px 513px;
+        background-position: calc(50% - 240px) calc(50% - 90px);
+    }
+    
+    .share__inner {
+    
+        padding: 122px 0 92px 0;
+    //     background-image: url(../../images/shareline.png);
+    //     background-repeat: no-repeat;
+    //     background-size: 974px 15px;
+    //     background-position: calc(50% - 00px) calc(50%);
+    }
+    
+    .share__list {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 573px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        flex-direction: column;
+        // border: 1px solid black;
+    }
+    
+    .share__item {
+        width: 100%;
+        max-width: 573px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // border: 1px solid red;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .share__item__img {
+        margin-bottom: 40px;
+    }
+    .share__wrapper{
+        margin-left: auto;
+        width: 100%;
+        max-width: 398px;
+    }
+    .share__item__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 117%;
+        letter-spacing: -1.07143px;
+        color: #495567;
+        margin-bottom: 27px;
+    }
+    
+    .share__item__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        color: #939CAA;
+    
+    }
+    
+}
+
+
+@include max-width (575px){
+
+    .share {
+        background-image: url(../);
+        background-repeat: no-repeat;
+        background-size: 974px 15px;
+        background-position: calc(50% - 270px) calc(50% - 90px);
+    }
+    
+    .share__inner {
+    
+        padding: 160px 0 147px 0;
+    //     background-image: url(../../images/shareline.png);
+    //     background-repeat: no-repeat;
+    //     background-size: 974px 15px;
+    //     background-position: calc(50% - 00px) calc(50%);
+    }
+    
+    .share__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        flex-direction: column;
+        // border: 1px solid black;
+        text-align: center;
+    }
+    
+    .share__item {
+        width: 100%;
+        max-width: 311px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        // border: 1px solid red;
+    }
+    
+    .share__item__img {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 40px;
+    }
+    
+    .share__item__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 117%;
+        letter-spacing: -1.07143px;
+        color: #495567;
+        margin-bottom: 27px;
+    }
+    
+    .share__item__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        color: #939CAA;
+    
+    }
+    
+    
+}

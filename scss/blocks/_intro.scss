@@ -162,3 +162,430 @@
     color: #FCB72B;
 }
 
+@include max-width (900px){
+    .intro {
+        background-image: url(../../images/introrespbg.jpg) , ;
+        background-repeat:no-repeat;
+        background-size: 100% ;
+        background-position:top center ;
+        padding: 137px 78px 205px 78px; 
+    }
+    
+    // .intro{
+    //     background-image: url(../../images/herocircle.png) , ;
+    //     background-repeat: no-repeat;
+    //     background-size: 186px 64px ;
+    //     background-position: calc(50%) calc(50%) ;
+    // }
+    
+    .intro__inner {
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        
+}
+    
+    
+    .intro__title {
+        position: relative;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 100%;
+        letter-spacing: -2.5px;
+    
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    .intro__title::before{
+        display: none;
+        position: absolute;
+        top: 400px;
+        left: 480px;
+        width: 203px;
+        height: 63px;
+        content: "";
+        background-image: url(../../images/herocircle.png);
+        background-repeat: no-repeat;
+        background-size: 203px 63px;
+    }
+    
+    .intro__wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+
+    }
+    .intro__wrapper::before{
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 203px;
+        height: px;
+        content: "";
+        background-image: url(../../images/herobefore.svg);
+        background-repeat: no-repeat;
+        background-size: 203px 10px;
+    }
+    .intro__wrapper::after{
+        display: none;
+        position: absolute;
+        top: 220px;
+        left: -110px;
+        width: 100%;
+        height: 100%;
+        max-width: 447px;
+        max-height: 138px;
+        
+        content: "";
+        background-image: url(../../images/heroafter.svg);
+        background-repeat: no-repeat;
+        background-size: 447px 138px;
+    }
+    
+    
+    .intro__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    
+    }
+    
+    .intro__link{
+        
+        margin: 0 auto;
+    }
+    .intro__link:hover{
+        background: transparent;
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+    }
+    
+}
+
+@include max-width (576px){
+    .intro {
+        background-image: url(../../images/introrespbg.jpg) , ;
+        background-repeat:no-repeat;
+        background-size: 100% ;
+        background-position:top center ;
+        padding: 137px 78px 205px 78px; 
+    }
+    
+    // .intro{
+    //     background-image: url(../../images/herocircle.png) , ;
+    //     background-repeat: no-repeat;
+    //     background-size: 186px 64px ;
+    //     background-position: calc(50%) calc(50%) ;
+    // }
+    
+    .intro__inner {
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        
+}
+    
+    
+    .intro__title {
+        position: relative;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 100%;
+        letter-spacing: -2.5px;
+    
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    .intro__title::before{
+        display: none;
+        position: absolute;
+        top: 400px;
+        left: 480px;
+        width: 203px;
+        height: 63px;
+        content: "";
+        background-image: url(../../images/herocircle.png);
+        background-repeat: no-repeat;
+        background-size: 203px 63px;
+    }
+    
+    .intro__wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+
+    }
+    .intro__wrapper::before{
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 203px;
+        height: px;
+        content: "";
+        background-image: url(../../images/herobefore.svg);
+        background-repeat: no-repeat;
+        background-size: 203px 10px;
+    }
+    .intro__wrapper::after{
+        display: none;
+        position: absolute;
+        top: 220px;
+        left: -110px;
+        width: 100%;
+        height: 100%;
+        max-width: 447px;
+        max-height: 138px;
+        
+        content: "";
+        background-image: url(../../images/heroafter.svg);
+        background-repeat: no-repeat;
+        background-size: 447px 138px;
+    }
+    
+    
+    .intro__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    
+    }
+    
+    .intro__link{
+        
+        margin: 0 auto;
+    }
+    .intro__link:hover{
+        background: transparent;
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+    }
+}
+
+@include max-width (576px){
+    .intro {
+        background-image: url(../../images/introrespbg.jpg) , ;
+        background-repeat:no-repeat;
+        background-size: 100% ;
+        background-position:top center ;
+        padding: 137px 78px 205px 78px; 
+    }
+    
+    // .intro{
+    //     background-image: url(../../images/herocircle.png) , ;
+    //     background-repeat: no-repeat;
+    //     background-size: 186px 64px ;
+    //     background-position: calc(50%) calc(50%) ;
+    // }
+    
+    .intro__inner {
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        
+}
+    
+    
+    .intro__title {
+        position: relative;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 100%;
+        letter-spacing: -2.5px;
+    
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    .intro__title::before{
+        display: none;
+        position: absolute;
+        top: 400px;
+        left: 480px;
+        width: 203px;
+        height: 63px;
+        content: "";
+        background-image: url(../../images/herocircle.png);
+        background-repeat: no-repeat;
+        background-size: 203px 63px;
+    }
+    
+    .intro__wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+
+    }
+    
+    .intro__wrapper::after{
+        display: none;
+        position: absolute;
+        top: 220px;
+        left: -110px;
+        width: 100%;
+        height: 100%;
+        max-width: 447px;
+        max-height: 138px;
+        
+        content: "";
+        background-image: url(../../images/heroafter.svg);
+        background-repeat: no-repeat;
+        background-size: 447px 138px;
+    }
+    
+    
+    .intro__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    
+    }
+    
+    .intro__link{
+        
+        margin: 0 auto;
+    }
+    .intro__link:hover{
+        background: transparent;
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+    }
+    
+}
+
+@include max-width (575px){
+    .intro {
+        background-image: url(../../images/intromobirespbg.png) , ;
+        background-repeat:no-repeat;
+        background-size: 100% ;
+        background-position:top center ;
+        padding: 115px 5px 179px 5px; 
+    }
+    
+    // .intro{
+    //     background-image: url(../../images/herocircle.png) , ;
+    //     background-repeat: no-repeat;
+    //     background-size: 186px 64px ;
+    //     background-position: calc(50%) calc(50%) ;
+    // }
+    
+    .intro__inner {
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        
+}
+    
+    
+    .intro__title {
+        position: relative;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: -2.5px;
+    
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    .intro__title::before{
+        display: none;
+        position: absolute;
+        top: 400px;
+        left: 480px;
+        width: 203px;
+        height: 63px;
+        content: "";
+        background-image: url(../../images/herocircle.png);
+        background-repeat: no-repeat;
+        background-size: 203px 63px;
+    }
+    
+    .intro__wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+
+    }
+    .intro__wrapper::before{
+        z-index: 3;
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: -24px;
+        width: 140px;
+        height: 151px;
+        content: "";
+        background-image: url(../../images/INTRORESPBEFORE.png);
+        background-repeat: no-repeat;
+        background-size: 140px 151px;
+    }
+    .intro__wrapper::after{
+        display: none;
+        position: absolute;
+        top: 220px;
+        left: -110px;
+        width: 100%;
+        height: 100%;
+        max-width: 447px;
+        max-height: 138px;
+        
+        content: "";
+        background-image: url(../../images/heroafter.svg);
+        background-repeat: no-repeat;
+        background-size: 447px 138px;
+    }
+    
+    
+    .intro__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        color: #FFFFFF;
+        margin-bottom: 34px;
+    
+    }
+    
+    .intro__link{
+        
+        margin: 0 auto;
+    }
+    .intro__link:hover{
+        background: transparent;
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+    }
+}

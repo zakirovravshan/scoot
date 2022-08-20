@@ -49,3 +49,146 @@
 .social__link{
     margin-left: 24px;
 }
+
+@include max-width (900px){
+    .signup {
+        background-color: #495567;
+        background-image: url(../../images/signuprespbg.png);
+        background-repeat: no-repeat;
+        background-size: 768px 158px;
+        background-position: bottom center;
+    
+    }
+    
+    .signup__inner {
+        padding: 102px 0;
+        
+       
+    }
+    
+    .signup__top_link:hover{
+     opacity: 0.6;
+    }
+    .footer__top_link:hover{
+        opacity: 0.6;
+    }
+    .signup__top__title {
+        display: block;
+        width: 100%;
+        max-width: 415px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+        vertical-align: middle;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .signup__links{
+        width: 100%;
+        max-width: 350px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .signup__top_link--first{
+        
+        margin-left: 0px;
+    }
+    .signup__top_link--second{
+     
+        margin: 0;
+        padding: 0;
+        
+    }
+    .site-footer{
+        background-color: #333A44;
+    }
+    .footer__inner{
+        padding: 35px 0 32px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .social__link{
+        margin-left: 24px;
+    }
+}
+
+@include max-width (576px){
+    .signup {
+        background-color: #495567;
+        background-image: url(../../images/signupmobiresp.png);
+        background-repeat: no-repeat;
+        background-size: 375px 181px;
+        background-position: bottom center;
+    
+    }
+    
+    .signup__inner {
+        width: 100%;
+        max-width: 311px;
+        padding: 102px 0;
+        margin: 0 auto;
+        
+       
+    }
+    
+    .signup__top_link:hover{
+     opacity: 0.6;
+    }
+    .footer__top_link:hover{
+        opacity: 0.6;
+    }
+    .signup__top__title {
+        display: block;
+        width: 100%;
+        max-width: 415px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+        vertical-align: middle;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .signup__links{
+        width: 100%;
+        max-width: 270px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .signup__top_link--first{
+        width: 100%;
+        max-width: 113px;
+        margin-right: auto;
+    }
+    .signup__top_link--second{
+        width: 100%;
+        max-width: 130px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .site-footer{
+        background-color: #333A44;
+    }
+    .footer__inner{
+        padding: 35px 0 32px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .social__link{
+        margin-left: 24px;
+    }
+}
