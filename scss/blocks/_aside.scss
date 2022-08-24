@@ -1,19 +1,58 @@
 .aside{  
-  position: relative;
-  background-image: url("../images/aside-bgi-img.png");  
-  background-size: 100%;
-  background-repeat: no-repeat; 
-  background-position: center center ; 
+  background-image: url("../images/aside-img.png"), url("../images/aside-bgi-img.png");  
+  background-size: 234px 73px  ,100% 100%;
+  background-repeat: no-repeat ,no-repeat; 
+  background-position: calc(50% + 635px) calc(50%),center center ;  
+    
 } 
 .aside__inner{ 
  padding: 62px 0 72px ;
 
 } 
 .aside__inner__title{ 
-    position: relative; 
     font-weight: 700;
     font-size: 56px;
     line-height: 100%;
     color: #FFFFFF;
     
+} 
+  
+@media only screen and ( max-width:900px) { 
+     
+ .aside{ 
+  background-position: calc(50% + 340px) calc(50%),center center ; 
+
+}  
+.aside__inner{ 
+  padding: 62px 0 72px 30px;
+ 
+ }
+.aside__inner__title{ 
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 100%;
+  color: #FFFFFF;
+  
+}
+
+} 
+
+@media only screen and ( max-width:576px){ 
+  
+  .aside{ 
+    background-position: calc(50% + 775px) calc(50%),center center ; 
+    background-size: 234px 73px  ,100% 100%;
+  }  
+  .aside__inner{ 
+    padding: 62px 0 72px 30px;
+   
+   }
+  .aside__inner__title{ 
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
 }
